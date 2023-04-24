@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uehuehuee</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-position: center;
+            background-image: url(imagens/fundo-madeira.jpg);
+            background-repeat: no-repeat;
+        }
+        #Celular {
+            background-image: url(imagens/frame-iphone.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            /*Acima apenas o quadrado.....Abaixo a Centralização dele*/
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            width: 300px;
+            height: 630px;
+        }
+        iframe {
+            width: 267px;
+            height: 470px;
+            position: relative;
+            top: 13%;
+            left: 5.8%;
+        }
+        nav{
+            position: relative;
+            top: 90px;
+            left: 1230px;
+            width: 90px;
+            height: 400px;
+            background-color: rgb(162, 0, 255);
+        }
+        img {
+            position: relative;
+            border-radius: 100%;
+            left: 20px;
+            top: 20px;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <section id="insta">
+            <a href="imagens/tela-instagram.jpg" target="aaa"><img src="imagens/logo-github.jpg"></a>
+            <a href="imagens/tela-facebook.jpg" target="aaa"><img src="imagens/logo-github.jpg"></a>
+        </section>
+    </nav>
+    <section id="Celular">
+        <iframe name="aaa" src="imagens/tela-instagram.jpg" frameborder="0"></iframe>
+    </section>
+</body>
+</html>
